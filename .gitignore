@@ -1,0 +1,27 @@
+# build related files
+
+build/
+*.o
+*.crf
+*.d
+*.lst
+*.dep
+*.tilz0R
+*.map
+*.lnp
+*.iex
+*.mk
+*.elf
+*.list
+
+# CMake related files
+
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake

@@ -1,0 +1,12 @@
+language: clang
+compiler: clang
+dist: trusty
+addons:
+  apt:
+    packages:
+      - cmake
+
+script: ./travis.sh
+
+before_install:
+  - chmod +x ./travis.sh
